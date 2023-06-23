@@ -7,4 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class TaskController {
 
     @GetMapping("/create")
+    public String create(){
+        return "create";
+    }
 }
