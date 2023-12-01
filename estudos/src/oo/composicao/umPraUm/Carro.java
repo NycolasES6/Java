@@ -8,7 +8,6 @@ public class Carro {
             motor.fatorInjecao += 0.4;
     }
 
-
     void frear(){
         if(motor.fatorInjecao > 0.5)
             motor.fatorInjecao -= 0.4;
