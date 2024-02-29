@@ -15,12 +15,11 @@ public class CursoTeste {
         curso1.adicionarAluno(aluno3);
         curso1.adicionarAluno(aluno2);
 
-        aluno1.adicionarCursos(curso2);
-        aluno1.adicionarCursos(curso3);
+        aluno1.adicionarCurso(curso2);
+        aluno1.adicionarCurso(curso3);
 
         for (Aluno aluno: curso1.alunos) {
             System.out.println(aluno.nome);            
         }
-
     }
 }
